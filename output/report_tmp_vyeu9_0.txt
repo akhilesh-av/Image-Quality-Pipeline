@@ -1,0 +1,147 @@
+Image Quality Assessment Report
+==================================================
+
+File: tmp_vyeu9_0.png
+Timestamp: 2025-07-03 14:47:45
+Overall Status: PASSED
+Quality Score: 85.16167557496418/100
+Needs Manual Review: YES
+
+Quality Deductions:
+  - Overexposed: -4.8
+  - Possible cropping: -10.0
+
+Flags/Warnings:
+  - Possible partial/cropped image
+  - Image is overexposed
+
+Processing Steps:
+--------------------------------------------------
+1. File Validation:
+   Status: passed
+   Message: Supported format: .png
+
+2. Corruption Check:
+   Status: passed
+   Message: Image is not corrupted
+
+3. Color Normalization:
+   Status: passed
+   Message: Converted to RGB
+   Original_Mode: RGB
+   New_Mode: RGB
+
+4. Metadata Removal:
+   Status: passed
+   Message: EXIF metadata removed
+
+5. Resolution Check:
+   Status: passed
+   Message: Resolution 1115x917 meets minimum requirements
+   Width: 1115
+   Height: 917
+
+6. Blur Detection:
+   Status: passed
+   Message: Image is sharp
+   Is_Blurry: False
+   Laplacian_Variance: 6547.607446729223
+   Threshold: 100
+
+7. Partial Image Detection:
+   Status: passed
+   Message: Possible partial/cropped image
+   Has_Border_Edges: True
+   Top_Edge_Strength: 25.5
+   Bottom_Edge_Strength: 28.107174887892377
+   Left_Edge_Strength: 0.8342420937840785
+   Right_Edge_Strength: 0.8342420937840785
+   Threshold: 10
+
+8. Brightness Contrast Evaluation:
+   Status: passed
+   Message: Brightness/contrast issues detected
+   Brightness: 234.51497327510745
+   Contrast: 53.60475511382398
+   Is_Underexposed: False
+   Is_Overexposed: True
+   Is_Low_Contrast: False
+   Brightness_Low_Threshold: 30
+   Brightness_High_Threshold: 220
+   Contrast_Threshold: 40
+
+9. Noise Detection:
+   Status: passed
+   Message: Noise level acceptable
+   Entropy: 1.8449676036834717
+   Variance: 2873.469770813038
+   Entropy_Threshold: 5
+   Variance_Threshold: 100
+   Is_Noisy: False
+
+10. Skew Correction:
+   Status: passed
+   Message: No significant skew detected
+   Corrected_Angle: 0.0
+
+11. Resize Padding:
+   Status: passed
+   Message: Resized to (512, 512) with padding
+   Original_Size: (1115, 917)
+   New_Size: (512, 512)
+   Resize_Ratio: 0.4591928251121076
+   Padding:
+     top: 45
+     bottom: 46
+     left: 0
+     right: 0
+
+12. Border Removal:
+   Status: passed
+   Message: Cropped to remove borders: 512x478
+
+13. Shadow Cleaning:
+   Status: passed
+   Message: Applied shadow removal using morphological operations
+
+14. Sharpness Enhancement:
+   Status: passed
+   Message: No sharpening applied (image not blurry)
+
+15. Contrast Enhancement:
+   Status: passed
+   Message: Applied CLAHE contrast enhancement
+
+16. Color Normalization:
+   Status: passed
+   Message: Skipped (grayscale image)
+
+17. Thresholding:
+   Status: passed
+   Message: Applied adaptive thresholding
+
+18. Edge Processing:
+   Status: passed
+   Message: Applied Canny edge detection
+
+19. Pixel Normalization:
+   Status: passed
+   Message: Normalized pixel values to [0,1] range
+
+20. Format Standardization:
+   Status: passed
+   Message: Saved processed image as PNG to output\processed_tmp_vyeu9_0.png
+   Output_Path: output\processed_tmp_vyeu9_0.png
+
+21. Quality Scoring:
+   Status: passed
+   Message: Calculated quality score: 85.16167557496418/100
+   Score: 85.16167557496418
+   Deductions: ['Overexposed: -4.8', 'Possible cropping: -10.0']
+
+22. Audit Trail:
+   Status: passed
+   Message: Audit trail completed - Needs manual review
+   Needs_Review: True
+
+Processed image saved to: output\processed_tmp_vyeu9_0.png

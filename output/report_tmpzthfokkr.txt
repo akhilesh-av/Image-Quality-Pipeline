@@ -1,0 +1,150 @@
+Image Quality Assessment Report
+==================================================
+
+File: tmpzthfokkr.png
+Timestamp: 2025-07-03 14:39:12
+Overall Status: PASSED
+Quality Score: 96.07438916929156/100
+Needs Manual Review: YES
+
+Quality Deductions:
+  - Overexposed: -3.9
+
+Flags/Warnings:
+  - Image is overexposed
+
+Processing Steps:
+--------------------------------------------------
+1. File Validation:
+   Status: passed
+   Message: Supported format: .png
+
+2. Corruption Check:
+   Status: passed
+   Message: Image is not corrupted
+
+3. Color Normalization:
+   Status: passed
+   Message: Converted to RGB
+   Original_Mode: RGB
+   New_Mode: RGB
+
+4. Metadata Removal:
+   Status: passed
+   Message: EXIF metadata removed
+
+5. Resolution Check:
+   Status: passed
+   Message: Resolution 814x922 meets minimum requirements
+   Width: 814
+   Height: 922
+
+6. Blur Detection:
+   Status: passed
+   Message: Image is sharp
+   Is_Blurry: False
+   Laplacian_Variance: 9458.473881690801
+   Threshold: 100
+
+7. Partial Image Detection:
+   Status: passed
+   Message: No border edges detected
+   Has_Border_Edges: False
+   Top_Edge_Strength: 0.0
+   Bottom_Edge_Strength: 0.0
+   Left_Edge_Strength: 0.0
+   Right_Edge_Strength: 0.0
+   Threshold: 10
+
+8. Brightness Contrast Evaluation:
+   Status: passed
+   Message: Brightness/contrast issues detected
+   Brightness: 231.77683249212532
+   Contrast: 53.57090861073249
+   Is_Underexposed: False
+   Is_Overexposed: True
+   Is_Low_Contrast: False
+   Brightness_Low_Threshold: 30
+   Brightness_High_Threshold: 220
+   Contrast_Threshold: 40
+
+9. Noise Detection:
+   Status: passed
+   Message: Noise level acceptable
+   Entropy: 2.6675877571105957
+   Variance: 2869.842249379452
+   Entropy_Threshold: 5
+   Variance_Threshold: 100
+   Is_Noisy: False
+
+10. Skew Correction:
+   Status: passed
+   Message: No significant skew detected
+   Corrected_Angle: 0.0
+
+11. Resize Padding:
+   Status: passed
+   Message: Resized to (512, 512) with padding
+   Original_Size: (814, 922)
+   New_Size: (512, 512)
+   Resize_Ratio: 0.5553145336225597
+   Padding:
+     top: 0
+     bottom: 0
+     left: 30
+     right: 30
+
+12. Border Removal:
+   Status: passed
+   Message: Cropped to remove borders: 30x512
+   Crop_Coordinates:
+     x: 482
+     y: 0
+     width: 30
+     height: 512
+
+13. Shadow Cleaning:
+   Status: passed
+   Message: Applied shadow removal using morphological operations
+
+14. Sharpness Enhancement:
+   Status: passed
+   Message: No sharpening applied (image not blurry)
+
+15. Contrast Enhancement:
+   Status: passed
+   Message: Applied CLAHE contrast enhancement
+
+16. Color Normalization:
+   Status: passed
+   Message: Skipped (grayscale image)
+
+17. Thresholding:
+   Status: passed
+   Message: Applied adaptive thresholding
+
+18. Edge Processing:
+   Status: passed
+   Message: Applied Canny edge detection
+
+19. Pixel Normalization:
+   Status: passed
+   Message: Normalized pixel values to [0,1] range
+
+20. Format Standardization:
+   Status: passed
+   Message: Saved processed image as PNG to output\processed_tmpzthfokkr.png
+   Output_Path: output\processed_tmpzthfokkr.png
+
+21. Quality Scoring:
+   Status: passed
+   Message: Calculated quality score: 96.07438916929156/100
+   Score: 96.07438916929156
+   Deductions: ['Overexposed: -3.9']
+
+22. Audit Trail:
+   Status: passed
+   Message: Audit trail completed - Needs manual review
+   Needs_Review: True
+
+Processed image saved to: output\processed_tmpzthfokkr.png
