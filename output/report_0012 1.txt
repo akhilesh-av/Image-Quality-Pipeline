@@ -1,0 +1,150 @@
+Image Quality Assessment Report
+==================================================
+
+File: 0012 1.jpg
+Timestamp: 2025-07-03 12:16:13
+Overall Status: PASSED
+Quality Score: 98.56053477987425/100
+Needs Manual Review: YES
+
+Quality Deductions:
+  - Low contrast: -1.4
+
+Flags/Warnings:
+  - Image has low contrast
+
+Processing Steps:
+--------------------------------------------------
+1. File Validation:
+    Status: passed
+    Message: Supported format: .jpg
+
+2. Corruption Check:
+    Status: passed
+    Message: Image is not corrupted
+
+3. Color Normalization:
+    Status: passed
+    Message: Already in RGB mode
+    Original_Mode: RGB
+    New_Mode: RGB
+
+4. Metadata Removal:
+    Status: passed
+    Message: EXIF metadata removed
+
+5. Resolution Check:
+    Status: passed
+    Message: Resolution 618x800 meets minimum requirements
+    Width: 618
+    Height: 800
+
+6. Blur Detection:
+    Status: passed
+    Message: Image is sharp
+    Is_Blurry: False
+    Laplacian_Variance: 2696.146017203357
+    Threshold: 100
+
+7. Partial Image Detection:
+    Status: passed
+    Message: No border edges detected
+    Has_Border_Edges: False
+    Top_Edge_Strength: 0.0
+    Bottom_Edge_Strength: 0.0
+    Left_Edge_Strength: 0.988125
+    Right_Edge_Strength: 3.091875
+    Threshold: 10
+
+8. Brightness Contrast Evaluation:
+    Status: passed
+    Message: Brightness/contrast issues detected
+    Brightness: 218.33349514563108
+    Contrast: 37.121069559748484
+    Is_Underexposed: False
+    Is_Overexposed: False
+    Is_Low_Contrast: True
+    Brightness_Low_Threshold: 30
+    Brightness_High_Threshold: 220
+    Contrast_Threshold: 40
+
+9. Noise Detection:
+    Status: passed
+    Message: Noise level acceptable
+    Entropy: 4.389521598815918
+    Variance: 1377.9738052596854
+    Entropy_Threshold: 5
+    Variance_Threshold: 100
+    Is_Noisy: False
+
+10. Skew Correction:
+    Status: passed
+    Message: No significant skew detected
+    Corrected_Angle: 0.0
+
+11. Resize Padding:
+    Status: passed
+    Message: Resized to (512, 512) with padding
+    Original_Size: (618, 800)
+    New_Size: (512, 512)
+    Resize_Ratio: 0.64
+    Padding:
+      top: 0
+      bottom: 0
+      left: 58
+      right: 59
+
+12. Border Removal:
+    Status: passed
+    Message: Cropped to remove borders: 59x512
+    Crop_Coordinates:
+      x: 453
+      y: 0
+      width: 59
+      height: 512
+
+13. Shadow Cleaning:
+    Status: passed
+    Message: Applied shadow removal using morphological operations
+
+14. Sharpness Enhancement:
+    Status: passed
+    Message: No sharpening applied (image not blurry)
+
+15. Contrast Enhancement:
+    Status: passed
+    Message: Applied CLAHE contrast enhancement
+
+16. Color Normalization:
+    Status: passed
+    Message: Skipped (grayscale image)
+
+17. Thresholding:
+    Status: passed
+    Message: Applied adaptive thresholding
+
+18. Edge Processing:
+    Status: passed
+    Message: Applied Canny edge detection
+
+19. Pixel Normalization:
+    Status: passed
+    Message: Normalized pixel values to [0,1] range
+
+20. Format Standardization:
+    Status: passed
+    Message: Saved processed image as PNG to output\processed_0012 1.png
+    Output_Path: output\processed_0012 1.png
+
+21. Quality Scoring:
+    Status: passed
+    Message: Calculated quality score: 98.56053477987425/100
+    Score: 98.56053477987425
+    Deductions: ['Low contrast: -1.4']
+
+22. Audit Trail:
+    Status: passed
+    Message: Audit trail completed - Needs manual review
+    Needs_Review: True
+
+Processed image saved to: output\processed_0012 1.png
